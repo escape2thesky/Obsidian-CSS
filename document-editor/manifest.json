@@ -1,0 +1,9 @@
+{
+  "id": "document-editor",
+  "name": "Document Editor",
+  "version": "0.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Professional document editing: heading numbers, figure/table captions, cross-references, equation numbers, TOC, and PDF export.",
+  "author": "Document Editor",
+  "isDesktopOnly": true
+}

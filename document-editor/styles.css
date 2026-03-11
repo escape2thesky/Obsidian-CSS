@@ -1,0 +1,160 @@
+/* Document Editor Plugin Styles */
+
+/* Hidden label markers: {#fig:label} etc. */
+.de-label {
+  display: none !important;
+}
+
+/* Reference placeholder (pending resolution) */
+.de-ref {
+  display: inline;
+}
+
+/* Bibliography reference placeholder */
+.de-bib-ref {
+  display: inline;
+}
+
+/* PDF export button */
+.de-pdf-export-btn {
+  margin-top: 1em;
+  width: 100%;
+}
+
+/* Heading number badges */
+.de-heading-number {
+  color: var(--text-muted);
+  margin-right: 0.4em;
+  font-weight: normal;
+  user-select: none;
+}
+
+/* Figure centering */
+.de-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+.de-figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+.de-figcaption {
+  font-size: 0.9em;
+  color: var(--text-muted);
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+/* Table centering */
+.de-table-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5em auto;
+}
+
+.de-table-caption {
+  font-size: 0.9em;
+  color: var(--text-muted);
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+
+.de-table-wrap table {
+  margin: 0 auto;
+}
+
+/* Equation numbering */
+.de-equation-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.de-equation-number {
+  position: absolute;
+  right: 0;
+  color: var(--text-muted);
+  font-size: 0.9em;
+  user-select: none;
+}
+
+/* Cross-reference links */
+.de-ref-link {
+  color: var(--link-color);
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--link-color);
+}
+
+.de-ref-link:hover {
+  opacity: 0.8;
+}
+
+.de-ref-missing {
+  color: var(--text-error);
+  font-weight: bold;
+}
+
+/* Bibliography table */
+.de-bib-table {
+  font-size: 0.9em;
+}
+
+.de-bib-number {
+  font-weight: bold;
+  color: var(--text-muted);
+}
+
+/* PDF Export Modal */
+.de-pdf-modal {
+  display: flex;
+  gap: 1.5em;
+  min-height: 400px;
+}
+
+.de-pdf-settings {
+  flex: 0 0 220px;
+}
+
+.de-pdf-preview-wrap {
+  flex: 1;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  overflow: auto;
+  background: #fff;
+  position: relative;
+}
+
+.de-pdf-preview-label {
+  font-size: 0.75em;
+  color: var(--text-muted);
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+
+.de-pdf-preview-iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  border: none;
+}
+
+/* TOC generated content */
+.de-toc {
+  background: var(--background-secondary);
+  border-radius: 6px;
+  padding: 1em 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.de-toc-title {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
